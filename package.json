@@ -1,0 +1,22 @@
+{
+  "name": "@pgsz/pg-comp-lib",
+  "version": "1.0.2",
+  "description": "",
+  "main": "lib/pg-comp-lib.common.js",
+  "scripts": {
+    "build:commonjs2": "webpack --config webpack.common.js",
+    "build:umd": "webpack --config webpack.umd.js",
+    "build": "npm run build:commonjs2 && npm run build:umd"
+  },
+  "keywords": [],
+  "author": "pengguang",
+  "files": [
+    "lib",
+    "package.json"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
